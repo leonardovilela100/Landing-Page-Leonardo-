@@ -26,8 +26,6 @@ app.get("/send-email", async (req, res)=> {
             erro: true,
             mensage: "Erro: E-mail não enviado com sucesso"
         });
-
-
       })
 
 
